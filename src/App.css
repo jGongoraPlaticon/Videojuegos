@@ -1,11 +1,54 @@
 .App {
   text-align: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,0.7203256302521008) 0%, rgba(68,136,129,0.9332107843137255) 35%, rgba(2,0,36,0.927608543417367) 94%);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+/* Css Inicio */
+/* Navbar */
+.navbar {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,0.7203256302521008) 0%, rgba(68,136,129,0.9332107843137255) 35%, rgba(2,0,36,0.927608543417367) 94%);
+}
+.tx-nav{
+  color: white !important;
+}
+
+/* Texto */
+.texto {
+  color: white;
+  padding: 100px 20px 20px 20px;
+}
+
+/* Card */
+.tarjetas {
+  gap: 12px;
+  padding: 20px;
+}
+.tj-body {
+  background: rgb(134,166,166);
+  background: linear-gradient(0deg, rgba(134,166,166,1) 0%, rgba(246,244,240,1) 100%);
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.tx-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Css Fin */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

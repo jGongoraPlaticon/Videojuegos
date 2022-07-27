@@ -1,12 +1,10 @@
 import './App.css';
-import NavScrollExample from './components/Navbar/Navbar';
-import UncontrolledExample from './components/Slider/Slider';
+import Home from './Home';
 
 function App() {
   return (
     <div className='App'>
-      <NavScrollExample/>
-      <UncontrolledExample/>
+      <Home/>
     </div>
   )
 }
