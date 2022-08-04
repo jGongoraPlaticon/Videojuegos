@@ -34,6 +34,10 @@
   background: rgb(134,166,166);
   background: linear-gradient(0deg, rgba(134,166,166,1) 0%, rgba(246,244,240,1) 100%);
 }
+.card-text {
+  height: 136px;
+  
+}
 
 /* Footer */
 footer {

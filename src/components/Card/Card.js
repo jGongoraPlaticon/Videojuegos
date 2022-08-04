@@ -18,7 +18,7 @@ function GroupExample() {
             This is a wider card with supporting text below as a natural lead-in
             to additional content. This content is a little bit longer.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button className='btn-tarjeta' variant="primary">Ver videojuego</Button>
         </Card.Body>
       </Card>
 
@@ -30,7 +30,7 @@ function GroupExample() {
             This card has supporting text below as a natural lead-in to
             additional content.{' '}
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button className='btn-tarjeta' variant="primary">Ver videojuego</Button>
         </Card.Body> 
       </Card>
 
@@ -43,7 +43,7 @@ function GroupExample() {
             to additional content. This card has even longer content than the
             first to show that equal height action.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button className='btn-tarjeta' variant="primary">Ver videojuego</Button>
         </Card.Body>
       </Card>
     </CardGroup>

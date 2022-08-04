@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+
 function NavScrollExample() {
   return (
     <Navbar bg="light" expand="lg" className='navbar'>
@@ -19,8 +20,9 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1" className='tx-nav'>Inicio</Nav.Link>
-            <Nav.Link href="#action2" className='tx-nav'>Blog</Nav.Link>
+            <Nav.Link href="/" className='tx-nav'>Inicio</Nav.Link>
+            <Nav.Link href="/games" className='tx-nav'>Games</Nav.Link>
+
             <NavDropdown title="Categoria" id="navbarScrollingDropdown" className='tx-nav'>
               <NavDropdown.Item href="#action3">Acción</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Arcade</NavDropdown.Item>
